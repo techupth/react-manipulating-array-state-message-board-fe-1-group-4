@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 function MessageBoard() {
   const [messages, setMessages] = useState([]);
   const [messageText, setMessageText] = useState("");
@@ -21,7 +20,6 @@ function MessageBoard() {
     setMessages(newMessages)
   }
 
-  
   return (
     <div className="app-wrapper">
       <h1 className="app-title">Message board</h1>
